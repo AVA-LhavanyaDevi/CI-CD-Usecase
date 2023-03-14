@@ -16,7 +16,7 @@ jobs:
   - uses: actions/checkout@v2
   
   - name: Build and Push Docker Image
-    uses: mr-smithers-eccellent/docker-build-push@v4
+    uses: mr-smithers-excellent/docker-build-push@v4
     with:
       image: lhavanyadevi/lhavanyadevi
       registry: docker.io
